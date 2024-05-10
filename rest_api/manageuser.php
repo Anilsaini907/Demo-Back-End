@@ -1,5 +1,5 @@
 <?php
-include('lib/database.php');
+include('config/database.php');
 header('content-type: application/json');
 
 if($_SERVER['REQUEST_METHOD']=="GET")
